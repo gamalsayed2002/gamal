@@ -1,0 +1,43 @@
+.Services {
+  background: var(--bgcolor);
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.Services .services_container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: var(--main-transition);
+}
+.Services .services_container .card {
+  text-align: center;
+  background-color: var(--bgcolor2);
+  padding: 20px 30px 10px 20px;
+  border-radius: 10px;
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+.Services .services_container .card:hover {
+  transform: scale(1.1);
+}
+.Services .services_container .card i {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.Services .services_container .card h3 {
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.Services .services_container .card h3 i {
+  font-size: 20px;
+}
+.Services .services_container .card p {
+  line-height: 1.5;
+  max-width: 300px;
+  text-align: left;
+  font-size: 17px;
+}
+
+/* end services */

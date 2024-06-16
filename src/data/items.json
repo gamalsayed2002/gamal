@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "BMS system for a phone store",
+    "link": "https://gamalsayed2002.github.io/BMS/",
+    "imgUrl": "./imgs/BMS.jpeg",
+    "category": "js"
+  },
+  {
+    "id": 2,
+    "name": "page for a fylo company",
+    "link": "https://fylonet.netlify.app/",
+    "imgUrl": "./imgs/fylo.jpeg",
+    "category": "react"
+  },
+  {
+    "id": 3,
+    "name": " A full page for any company",
+    "link": "https://gamalsayed2002.github.io/template-1/",
+    "imgUrl": "./imgs/template 1.jpeg",
+    "category": "css"
+  },
+  {
+    "id": 4,
+    "name": "A full page for any company",
+    "link": "https://gamalsayed2002.github.io/template-3/",
+    "imgUrl": "./imgs/template 3.jpeg",
+    "category": "css"
+  },
+  {
+    "id": 5,
+    "name": " A full page for any company",
+    "link": "https://gamalsayed2002.github.io/template4/",
+    "imgUrl": "./imgs/template 4.jpeg",
+    "category": "css"
+  },
+  {
+    "id": 6,
+    "name": "A program for editing images",
+    "link": "https://gamalsayed2002.github.io/image/",
+    "imgUrl": "./imgs/js app.jpeg",
+    "category": "js"
+  }
+]

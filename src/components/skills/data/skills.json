@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "html",
+    "img_url": "./imgs/skills imgs/file-type-html.451x512.png"
+  },
+  {
+    "id": 2,
+    "name": "css",
+    "img_url": "./imgs//skills imgs/file-type-css.451x512.png"
+  },
+  {
+    "id": 3,
+    "name": "js",
+    "img_url": "./imgs//skills imgs/javascript-js.512x512.png"
+  },
+  {
+    "id": 4,
+    "name": "tailwind css",
+    "img_url": "./imgs//skills imgs/tailwindcss-icon.512x307.png"
+  },
+  {
+    "id": 5,
+    "name": "bootstrap",
+    "img_url": "./imgs/skills imgs/bootstrap.512x512.png"
+  },
+  {
+    "id": 6,
+    "name": "react js",
+    "img_url": "./imgs//skills imgs/react-javascript-js-framework-facebook.512x455.png"
+  },
+  {
+    "id": 7,
+    "name": "figma",
+    "img_url": "./imgs//skills imgs/figma.512x512.png"
+  },
+  {
+    "id": 8,
+    "name": "microsoft office",
+    "img_url": "./imgs//skills imgs/microsoft-365.436x512.png"
+  }
+]

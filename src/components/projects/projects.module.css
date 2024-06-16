@@ -1,0 +1,72 @@
+.portfolio {
+  background: var(--bgcolor);
+  padding: 50px 0;
+}
+.portfolio .projects_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.portfolio .projects_container .buttons {
+  display: flex;
+  gap: 30px;
+}
+.portfolio .projects_container .buttons button {
+  background: rgba(36, 37, 46, 1);
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  opacity: 0.5;
+  transition: 0.3s all;
+  color: white;
+  cursor: pointer;
+}
+.portfolio .projects_container .buttons button:hover {
+  opacity: 1;
+}
+.portfolio .projects_container .projects {
+    width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio .projects_container .projects .item {
+  width: 250px;
+  max-width: 100%;
+
+  background-color: var(--bgcolor2);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .projects_container .projects .item img {
+  width: 100%;
+  border-radius: inherit;
+}
+
+/* start media */
+@media (max-width: 630px) {
+  .portfolio .projects_container .buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .portfolio .projects_container .buttons button {
+    width: 100%;
+    flex: 1;
+  }
+}
+@media (max-width: 580px){
+    .portfolio .projects_container .projects .item{
+width: 100%;
+    }
+}
