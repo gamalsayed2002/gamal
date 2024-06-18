@@ -6,7 +6,7 @@ export default function Projects() {
   let [mainData, setMainData] = useState(maindata);
   return (
     <section id="portfolio" className={`${styles.portfolio}`}>
-    <div className={`container ${styles.projects_container}`}>
+      <div className={`container ${styles.projects_container}`}>
         <div className={`${styles.buttons}`}>
           <button
             className={currentActive === "all" ? "active" : null}
@@ -17,7 +17,7 @@ export default function Projects() {
           >
             all projects
           </button>
-      
+
           <button
             className={currentActive === "css" ? "active" : null}
             onClick={() => {
@@ -55,17 +55,17 @@ export default function Projects() {
             React Js
           </button>
         </div>
-      
+
         <div className={`${styles.projects}`}>
           {mainData.map((item) => {
             return (
-              <div className={`${styles.item}`}>
+              <a className={`${styles.item}`} target="_blank" href={item.link}>
                 <img src={item.imgUrl} alt="img not found" />
-              </div>
+              </a>
             );
           })}
         </div>
-    </div>
+      </div>
     </section>
   );
 }
