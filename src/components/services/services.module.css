@@ -19,10 +19,15 @@
   transition: var(--main-transition);
   cursor: pointer;
 }
-.Services .services_container .card:hover {
+.Services .services_container .card {
+  width: 300px;
+  max-width: 100%;
+}
+.Services .services_container .card:hover i {
   transform: scale(1.1);
 }
 .Services .services_container .card i {
+  transition: var(--main-transition);
   font-size: 40px;
   padding-bottom: 15px;
 }
@@ -41,3 +46,10 @@
 }
 
 /* end services */
+/* start meida */
+
+@media (max-width: 4000px) {
+  .Services .services_container .card p {
+    font-size: 15px;
+  }
+}
