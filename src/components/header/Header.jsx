@@ -5,10 +5,28 @@ import whatsapp from "./header imgs/whatsapp.512x512.png";
 import insta from "./header imgs/instagram.512x511.png";
 import linkedin from "./header imgs/linkedin.512x512.png";
 import landing from "./header imgs/landing page.png";
+
+import { useEffect, useRef } from "react";
+
 export default function Header() {
+  let headerRef = useRef();
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        headerRef.current.style.background = "rgba(0 0 0 / 70%)";
+        headerRef.current.style.backdropFilter = "blur(5px)";
+        headerRef.current.style.position = "fixed";
+        // headerRef.current.style.padding = "20px 0";
+      } else {
+        headerRef.current.style.background = "transparent";
+        // headerRef.current.style.padding = "60px 0";
+        headerRef.current.style.position = "relative";
+      }
+    });
+  }, []);
   return (
     <header className={`${styles.header}`}>
-      <nav>
+      <nav ref={headerRef}>
         <div className={`container ${styles.nav_container}`}>
           <h2 className="main-color">portfolio</h2>
           {/* burger icon */}
@@ -30,7 +48,10 @@ export default function Header() {
               <a href="#Skills">Skills</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#Portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -87,10 +108,19 @@ export default function Header() {
               <a
                 className={`wow fadeInUp`}
                 data-wow-delay="1.4s"
-                href="https://wa.me/+201129340477"
+                href="https://www.instagram.com/gamalfathisayed/"
                 target="_blank"
               >
                 <img src={insta} alt="icon not found" />
+              </a>
+
+              <a
+                className={`wow fadeInUp`}
+                data-wow-delay="1.4s"
+                href="https://github.com/gamalsayed2002"
+                target="_blank"
+              >
+                <img src={git} alt="icon not found" />
               </a>
             </div>
           </div>

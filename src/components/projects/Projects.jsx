@@ -59,7 +59,11 @@ export default function Projects() {
         <div className={`${styles.projects}`}>
           {mainData.map((item) => {
             return (
-              <a className={`${styles.item}`} target="_blank" href={item.link}>
+              <a
+                className={`${styles.item} wow fadeInUp`}
+                target="_blank"
+                href={item.link}
+              >
                 <img src={item.imgUrl} alt="img not found" />
               </a>
             );

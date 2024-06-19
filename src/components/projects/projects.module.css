@@ -29,7 +29,7 @@
   opacity: 1;
 }
 .portfolio .projects_container .projects {
-    width: 100%;
+  width: 100%;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -40,7 +40,7 @@
   max-width: 100%;
 
   background-color: var(--bgcolor2);
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -65,8 +65,8 @@
     flex: 1;
   }
 }
-@media (max-width: 580px){
-    .portfolio .projects_container .projects .item{
-width: 100%;
-    }
+@media (max-width: 580px) {
+  .portfolio .projects_container .projects .item {
+    width: 100%;
+  }
 }
