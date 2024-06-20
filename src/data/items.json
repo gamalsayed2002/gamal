@@ -40,5 +40,23 @@
     "link": "https://gamalsayed2002.github.io/image/",
     "imgUrl": "./imgs/js app.jpeg",
     "category": "js"
+  },
+  {
+    "id": 7,
+    "name": "template 5",
+    "link": "https://gamalsayed2002.github.io/template-5/",
+    "imgUrl": "./imgs/template 5.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "template 6",
+    "link": "https://gamalsayed2002.github.io/template-6/",
+    "imgUrl": "./imgs/template 6.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "template 7",
+    "link": "https://gamalsayed2002.github.io/template-7/",
+    "imgUrl": "./imgs/template 7 .jpeg"
   }
 ]
