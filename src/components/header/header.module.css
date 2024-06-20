@@ -56,44 +56,39 @@
 .header nav ul li a:hover {
   color: var(--main-color);
 }
-
+.header .phone_nav{
+  display: none;
+}
 /* start media for nav */
 
 @media (max-width: 800px) {
-  .header nav {
-    position: relative;
+  .header nav{
+    display: none;
   }
-  .header nav .menu {
+  .header .phone_nav{
     display: block;
-  }
-
-  .header nav ul {
-    z-index: 100;
-    flex-direction: column;
-    position: absolute;
+    width: fit-content;
+    max-width: 99%;
+    background: rgba(0 0 0 / 80%);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 2000;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
-    background-color: rgba(0 0 0 /70%);
-    backdrop-filter: blur(5px);
-    bottom: -268px;
-    scale: 0;
-    align-items: center;
-    padding: 20px 0;
-    transition: var(--main-transition);
-    border-radius: 5px;
+    bottom: 30px;
+    padding: 20px;
+    border-radius: 30px;
   }
-  .header nav ul li {
-    width: 100%;
-  }
-  .header nav ul li a {
-    width: 100%;
+  .header .phone_nav ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+gap: 10px;
+  }
+  .header .phone_nav ul li a{
+    color: whitesmoke;
   }
 }
+
+/* start media for nav on small screen */
 
 /* start landing  */
 .header .landing .landing_container {

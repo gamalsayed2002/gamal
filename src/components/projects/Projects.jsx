@@ -5,7 +5,7 @@ export default function Projects() {
   let [currentActive, setCurrentActive] = useState("all");
   let [mainData, setMainData] = useState(maindata);
   return (
-    <section id="portfolio" className={`${styles.portfolio}`}>
+    <section id="Portfolio" className={`${styles.portfolio}`}>
       <div className={`container ${styles.projects_container}`}>
         <div className={`${styles.buttons}`}>
           <button

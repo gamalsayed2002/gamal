@@ -30,11 +30,7 @@ export default function Header() {
         <div className={`container ${styles.nav_container}`}>
           <h2 className="main-color">portfolio</h2>
           {/* burger icon */}
-          <div className={`${styles.menu}`}>
-            <div></div>
-            <div className={`${styles.special}`}></div>
-            <div></div>
-          </div>
+         
           {/* burger
            icon */}
           <ul>
@@ -50,12 +46,27 @@ export default function Header() {
             <li>
               <a href="#Portfolio">Portfolio</a>
             </li>
-            <li>
-              <a href="#Contact">Contact</a>
-            </li>
+           
           </ul>
         </div>
       </nav>
+      <div className={`${styles.phone_nav}`}>
+      <ul>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href="#Services">Services</a>
+            </li>
+            <li>
+              <a href="#Skills">Skills</a>
+            </li>
+            <li>
+              <a href="#Portfolio">Portfolio</a>
+            </li>
+           
+          </ul>
+      </div>
       <div className={`${styles.landing}`}>
         <div className={`container ${styles.landing_container}`}>
           <div className={`${styles.content}`}>

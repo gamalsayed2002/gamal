@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Skills() {
   let [mainData, setMainData] = useState(skills);
   return (
-    <section className={`${styles.skills_section}`}>
+    <section className={`${styles.skills_section}`} id="Skills">
       <h2 className="main-h2">
         My <span className="main-color">Skills</span>
       </h2>
