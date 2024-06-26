@@ -31,11 +31,16 @@
   },
   {
     "id": 7,
+    "name": "Redux",
+    "img_url": "./imgs//skills imgs/redux.png"
+  },
+  {
+    "id": 8,
     "name": "figma",
     "img_url": "./imgs//skills imgs/figma.512x512.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "microsoft office",
     "img_url": "./imgs//skills imgs/microsoft-365.436x512.png"
   }
