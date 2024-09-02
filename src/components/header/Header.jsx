@@ -30,7 +30,7 @@ export default function Header() {
         <div className={`container ${styles.nav_container}`}>
           <h2 className="main-color">portfolio</h2>
           {/* burger icon */}
-         
+
           {/* burger
            icon */}
           <ul>
@@ -46,26 +46,24 @@ export default function Header() {
             <li>
               <a href="#Portfolio">Portfolio</a>
             </li>
-           
           </ul>
         </div>
       </nav>
       <div className={`${styles.phone_nav}`}>
-      <ul>
-            <li>
-              <a href="#About">About</a>
-            </li>
-            <li>
-              <a href="#Services">Services</a>
-            </li>
-            <li>
-              <a href="#Skills">Skills</a>
-            </li>
-            <li>
-              <a href="#Portfolio">Portfolio</a>
-            </li>
-           
-          </ul>
+        <ul>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Services">Services</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Portfolio">Portfolio</a>
+          </li>
+        </ul>
       </div>
       <div className={`${styles.landing}`}>
         <div className={`container ${styles.landing_container}`}>
@@ -83,7 +81,7 @@ export default function Header() {
             </h3>
             <a
               data-wow-delay="0.6s"
-              href="https://drive.google.com/file/d/1254kWA4aa6Bjpv41NGjfOmEf-Gl5qk5Y/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1PtnEAn-pFUJ8-rBmQN_qyW-B1IHH9M0_/view?usp=sharing"
               className={` wow fadeInUp ${styles.cv}`}
               target="_blank"
             >
