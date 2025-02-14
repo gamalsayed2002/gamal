@@ -43,5 +43,20 @@
     "id": 9,
     "name": "microsoft office",
     "img_url": "./imgs//skills imgs/microsoft-365.436x512.png"
+  },
+  {
+    "id": 10,
+    "name": "node js",
+    "img_url": "./imgs//skills imgs/nodejs.png"
+  },
+  {
+    "id": 11,
+    "name": "mongodb",
+    "img_url": "./imgs//skills imgs/mongodb.png"
+  },  {
+    "id": 12,
+    "name": "next js",
+    "img_url": "./imgs//skills imgs/next-js.png"
   }
+  
 ]

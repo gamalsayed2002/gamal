@@ -13,13 +13,13 @@ export default function About() {
               About <span className="main-color">Me</span>
             </h1>
             <h5 data-wow-delay="0.2s" className={`wow fadeInRight`}>
-              <span className="main-color">FrontEnd</span> Developer
+              <span className="main-color">MernStack</span> Developer
             </h5>
-            <p data-wow-delay="0.3s" className={`wow fadeInRight`}>
-              I am a front-end developer and
-              <span className="main-color">Ui&amp;Ux</span> designer i can
-              provide clean code and pixel perfext design. i also make website
-              more &amp; more interactive
+            <p>
+              I’m a <span className="main-color">MERN</span> stack developer focused on building dynamic web
+              applications. I love solving challenges and collaborating on
+              projects. In my spare time, I explore new technologies and
+              contribute to open-source. Let’s connect!
             </p>
           </div>
         </div>

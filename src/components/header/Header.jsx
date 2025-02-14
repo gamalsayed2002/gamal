@@ -75,13 +75,13 @@ export default function Header() {
               Gamal <span className="main-color">Sayed</span>
             </h1>
             <h3 className="wow fadeInUp" data-wow-delay="0.4s">
-              I’m a <span className="main-color">Frontend</span> Developer &
+              I’m a <span className="main-color">Mernstack</span> Developer &
               <br />
               <span className="main-color">Ui & Ux </span>Designer
             </h3>
             <a
               data-wow-delay="0.6s"
-              href="https://drive.google.com/file/d/1PtnEAn-pFUJ8-rBmQN_qyW-B1IHH9M0_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Q7Zzkg5nElsTw4UvJLQQJaRBsmtb6RMx/view?usp=drive_link"
               className={` wow fadeInUp ${styles.cv}`}
               target="_blank"
             >
