@@ -67,6 +67,27 @@ button.active {
   font-weight: bold;
   letter-spacing: 0.6px;
   border: 1px solid var(--main-color);
-
 }
 /* end media for containers */
+.swiper {
+  width: 100%;
+height: 120px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+height:100%;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

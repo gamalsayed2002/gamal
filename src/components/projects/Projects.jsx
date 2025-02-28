@@ -1,6 +1,13 @@
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+// Import Swiper styles
+import "swiper/css";
+
 import styles from "./projects.module.css";
 import { useState } from "react";
 import maindata from "./items.json";
+
 export default function Projects() {
   let [currentActive, setCurrentActive] = useState("all");
   let [mainData, setMainData] = useState(maindata);
@@ -62,9 +69,36 @@ export default function Projects() {
               <a
                 className={`${styles.item} wow fadeInUp`}
                 target="_blank"
+                rel="noreferrer"
                 href={item.link}
               >
-                <img src={item.imgUrl} alt="img not found" />
+                {item.imgs ? (
+                  <>
+                    <Swiper
+                      className="mySwiper"
+                      autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                      }}
+                      modules={[Autoplay]}
+                    >
+                      {item.imgs.map((img, index) => (
+                        <SwiperSlide key={index}>
+                          {" "}
+                          <img src={img} alt="img not found" />
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    <img src={item.imgUrl} alt="img not found" />
+                  </>
+                )}
+
+                <h3>{item.name}</h3>
+                <p>{item.description}</p>
               </a>
             );
           })}

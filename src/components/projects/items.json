@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "BMS system for a phone store",
+    "description": "I used html css js to create a website for the phone shop system",
     "link": "https://gamalsayed2002.github.io/BMS/",
     "imgUrl": "./imgs/BMS.jpeg",
     "category": "js"
@@ -9,6 +10,7 @@
   {
     "id": 2,
     "name": "page for a fylo company",
+    "description": "I used react js and tailwind css to create an integrated website that is responsive to all screens",
     "link": "https://fylonet.netlify.app/",
     "imgUrl": "./imgs/fylo.jpeg",
     "category": "react"
@@ -16,6 +18,7 @@
   {
     "id": 3,
     "name": " A full page for any company",
+    "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-1/",
     "imgUrl": "./imgs/template 1.jpeg",
     "category": "css"
@@ -23,6 +26,7 @@
   {
     "id": 4,
     "name": "A full page for any company",
+    "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-3/",
     "imgUrl": "./imgs/template 3.jpeg",
     "category": "css"
@@ -30,6 +34,7 @@
   {
     "id": 5,
     "name": " A full page for any company",
+    "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template4/",
     "imgUrl": "./imgs/template 4.jpeg",
     "category": "css"
@@ -37,29 +42,67 @@
   {
     "id": 6,
     "name": "A program for editing images",
+    "description": "I used javascript to create a website for editing images",
     "link": "https://gamalsayed2002.github.io/image/",
     "imgUrl": "./imgs/js app.jpeg",
     "category": "js"
   },
   {
     "id": 7,
-    "name": "template 5",
+    "name": " A full page for any company",
+    "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-5/",
     "imgUrl": "./imgs/template 5.jpeg",
     "category": "css"
   },
   {
     "id": 8,
-    "name": "template 6",
+    "name": " A full page for any company",
+    "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-6/",
     "imgUrl": "./imgs/template 6.jpeg",
     "category": "css"
   },
   {
     "id": 9,
-    "name": "template 7",
+    "name": " A full page for any company",
+    "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-7/",
     "imgUrl": "./imgs/template 7.jpeg",
     "category": "css"
+  },
+  {
+    "id": 10,
+    "name": " A full page for izemak company",
+    "description": "i used react js to create a website for izemak company The site is a landing page and a special system for creating parties, sending invitations, checking the status of each invitee, and creating reports    ",
+    "link": "https://www.izemak.com",
+    "imgUrl": "./imgs/izemak.jpeg",
+    "imgs": [
+      "./imgs/izemak/1.png",
+      "./imgs/izemak/2.png",
+      "./imgs/izemak/3.png",
+      "./imgs/izemak/4.png",
+      "./imgs/izemak/5.png",
+      "./imgs/izemak/6.png",
+      "./imgs/izemak.jpeg"
+    ],
+    "category": "react"
+  },
+  {
+    "id": 11,
+    "name": " A full page for izemak company",
+    "description": "i used react js to create a website for izemak company The website is a landing page and a special system for shipping companies to follow shipments, delivery trips, the location of each worker, and all the necessary information about the workers and shipments.    ",
+    "link": "https://www.izemak.com",
+    "imgUrl": "./imgs/fraktbox.png",
+    "imgs": [
+      "./imgs/fraktbox/1.png",
+      "./imgs/fraktbox/2.png",
+      "./imgs/fraktbox/3.png",
+      "./imgs/fraktbox/4.png",
+      "./imgs/fraktbox/5.png",
+      "./imgs/fraktbox/6.png",
+      "./imgs/fraktbox.png"
+    ],
+    "category": "react"
   }
 ]
