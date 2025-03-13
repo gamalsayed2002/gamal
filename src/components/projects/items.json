@@ -5,7 +5,7 @@
     "description": "I used html css js to create a website for the phone shop system",
     "link": "https://gamalsayed2002.github.io/BMS/",
     "imgUrl": "./imgs/BMS.jpeg",
-    "category": "js"
+    "category": "web"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "I used react js and tailwind css to create an integrated website that is responsive to all screens",
     "link": "https://fylonet.netlify.app/",
     "imgUrl": "./imgs/fylo.jpeg",
-    "category": "react"
+    "category": "web"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-1/",
     "imgUrl": "./imgs/template 1.jpeg",
-    "category": "css"
+    "category": "web"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-3/",
     "imgUrl": "./imgs/template 3.jpeg",
-    "category": "css"
+    "category": "web"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template4/",
     "imgUrl": "./imgs/template 4.jpeg",
-    "category": "css"
+    "category": "web"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "description": "I used javascript to create a website for editing images",
     "link": "https://gamalsayed2002.github.io/image/",
     "imgUrl": "./imgs/js app.jpeg",
-    "category": "js"
+    "category": "web"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-5/",
     "imgUrl": "./imgs/template 5.jpeg",
-    "category": "css"
+    "category": "web"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-6/",
     "imgUrl": "./imgs/template 6.jpeg",
-    "category": "css"
+    "category": "web"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "description": "I used html css to create a template website for any company",
     "link": "https://gamalsayed2002.github.io/template-7/",
     "imgUrl": "./imgs/template 7.jpeg",
-    "category": "css"
+    "category": "web"
   },
   {
     "id": 10,
@@ -86,7 +86,7 @@
       "./imgs/izemak/6.png",
       "./imgs/izemak.jpeg"
     ],
-    "category": "react"
+    "category": "web"
   },
   {
     "id": 11,
@@ -103,6 +103,27 @@
       "./imgs/fraktbox/6.png",
       "./imgs/fraktbox.png"
     ],
-    "category": "react"
+    "category": "web"
+  },
+  {
+    "id": 14,
+    "name": "ui design for online couch landing page with store and dashboard ",
+    "link": "https://www.figma.com/design/8Hqq8BNuyrZlG8xxtaOM0r/active-mk?node-id=31-13&t=GzCL9MykiLS5orRs-1",
+    "imgUrl": "./imgs/ui/active-mk.png",
+    "category": "ui"
+  },
+  {
+    "id": 15,
+    "name": "ui design for restaurant landing page with store , dashboard and two menu design ",
+    "link": "https://www.figma.com/design/vTsxch1a2tl9c8x8XYj79a/restaurant?node-id=25-2&t=GzCL9MykiLS5orRs-1",
+    "imgUrl": "./imgs/ui/restaurant.png",
+    "category": "ui"
+  },
+  {
+    "id": 15,
+    "name": "ui design for fraktbox landing page with hole system design ",
+    "link": "https://www.figma.com/design/vTsxch1a2tl9c8x8XYj79a/restaurant?node-id=25-2&t=GzCL9MykiLS5orRs-1",
+    "imgUrl": "./imgs/ui/fraktbox.png",
+    "category": "ui"
   }
 ]

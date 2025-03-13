@@ -26,40 +26,28 @@ export default function Projects() {
           </button>
 
           <button
-            className={currentActive === "css" ? "active" : null}
+            className={currentActive === "web" ? "active" : null}
             onClick={() => {
-              setCurrentActive("css");
+              setCurrentActive("web");
               let data = maindata.filter((i) => {
-                return i.category === "css";
+                return i.category === "web";
               });
               setMainData(data);
             }}
           >
-            HTML & CSS
+            Web projects
           </button>
           <button
-            className={currentActive === "js" ? "active" : null}
+            className={currentActive === "ui" ? "active" : null}
             onClick={() => {
-              setCurrentActive("js");
+              setCurrentActive("ui");
               let data = maindata.filter((i) => {
-                return i.category === "js";
+                return i.category === "ui";
               });
               setMainData(data);
             }}
           >
-            JavaScript
-          </button>
-          <button
-            className={currentActive === "react" ? "active" : null}
-            onClick={() => {
-              setCurrentActive("react");
-              let data = maindata.filter((i) => {
-                return i.category === "react";
-              });
-              setMainData(data);
-            }}
-          >
-            React Js
+            Ui & Ux projects
           </button>
         </div>
 

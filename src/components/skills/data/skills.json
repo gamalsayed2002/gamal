@@ -18,6 +18,11 @@
     "icon": "fa-brands fa-node-js"
   },
   {
+    "id": 13,
+    "name": "typescript ",
+    "img_url": "./imgs//skills imgs/typescript.png"
+  },
+  {
     "id": 4,
     "name": "tailwind css",
     "img_url": "./imgs//skills imgs/tailwindcss-icon.512x307.png"
