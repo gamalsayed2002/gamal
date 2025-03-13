@@ -14,6 +14,7 @@
 .Services .services_container .card {
   text-align: center;
   background-color: var(--bgcolor2);
+  border: 2px solid var(--main-color);
   padding: 20px 30px 10px 20px;
   border-radius: 10px;
   transition: var(--main-transition);
