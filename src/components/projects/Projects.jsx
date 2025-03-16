@@ -11,13 +11,17 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import styles from "./projects.module.css";
 import { useState } from "react";
 import maindata from "./items.json";
-import bg from "./imgs/bg.png";
 export default function Projects() {
   let [currentActive, setCurrentActive] = useState("all");
   let [mainData, setMainData] = useState(maindata);
   return (
     <section id="Portfolio" className={`${styles.portfolio}`}>
-      <img src={bg} alt="bg not found" className={styles.bg} />
+      <div
+        className={`${styles.blur} blur wow fadeInLeft`}
+        data-wow-duration=".4s"
+        data-wow-delay="0.5s"
+      ></div>
+
       <div className={`container ${styles.projects_container}`}>
         <div className={`${styles.buttons}`}>
           <button
@@ -68,10 +72,17 @@ export default function Projects() {
               clickable: true,
             }}
           >
+              <div className={styles.blur}></div>
             {mainData.map((item) => {
               return (
                 <SwiperSlide className={styles.slide} key={item.id}>
-                  <a href="" className={styles.img}>
+                 
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={item.link}
+                    className={styles.img}
+                  >
                     {" "}
                     <img src={item.imgUrl} alt="" />
                   </a>
@@ -81,6 +92,7 @@ export default function Projects() {
                     rel="noreferrer"
                     href={item.link}
                   >
+                   
                     <h3>{item.name}</h3>
                     <p>{item.description}</p>
                   </a>

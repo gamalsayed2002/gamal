@@ -1,15 +1,9 @@
 .portfolio {
   padding: 50px 0;
   position: relative;
+  background: var(--bgcolor);
 }
-.portfolio .bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
+
 .portfolio .projects_container {
   display: flex;
   flex-direction: column;
@@ -74,13 +68,28 @@
 .portfolio .projects_container .projects .slide .img img {
   border-radius: 20px;
 }
-.portfolio .projects_container .projects .item {
+.portfolio .projects_container .projects .slide .item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #d3d3d3;
   max-width: 100%;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+.portfolio .projects_container .swiper .blur{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translate(100%, -50%);
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: blur(100px);
+  transition: 0.5s;
+
 }
 .portfolio .projects_container .projects .item h3 {
   margin: 10px 0 15px 0;

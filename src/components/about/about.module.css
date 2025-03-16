@@ -1,15 +1,16 @@
 .about {
   background: var(--bgcolor2);
-padding: 50px 0;
+  padding: 50px 0;
+  position: relative;
 }
 .about .about_container {
-
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .about .image {
-
+  z-index: 10;
   flex: 1;
 }
 .about .image img {
@@ -34,22 +35,27 @@ padding: 50px 0;
   font-size: 20px;
 }
 
-
-
-@media(max-width:800px){
-  .about .image{
+@media (max-width: 800px) {
+  .about .image {
     display: none;
   }
+.about .blur{
+ width: 40px;
+ height: 40px;
+}
+.about .blur::before{
+  width: 10px;
+  height: 10px;
+}
 }
 
-@media(max-width:500px){
+@media (max-width: 500px) {
   .about .text h5 {
     font-size: 20px;
   }
-  
+
   .about .text h1 {
-    font-size:25px;
- 
+    font-size: 25px;
   }
   .about .text p {
     line-height: 1.7;

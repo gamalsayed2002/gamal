@@ -2,6 +2,25 @@
   background: var(--bgcolor);
   padding-top: 70px;
   padding-bottom: 30px;
+  position: relative;
+}
+.Services .blur {
+ 
+  left: 15%;
+  top: 15%;
+
+}
+.Services .blur::before {
+  content: "";
+  position: absolute;
+  right: -10%;
+  top: -10%;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  transition: 0.5s;
 }
 
 .Services .services_container {
@@ -13,12 +32,39 @@
 }
 .Services .services_container .card {
   text-align: center;
-  background-color: var(--bgcolor2);
-  border: 2px solid var(--main-color);
+  background-color: #22282a92;
+  backdrop-filter: blur(100px);
   padding: 20px 30px 10px 20px;
   border-radius: 10px;
   transition: var(--main-transition);
   cursor: pointer;
+  z-index: 10;
+  position: relative;
+  overflow: hidden;
+}
+.Services .services_container .card .blur {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  filter: blur(10px);
+  transition: 0.5s;
+}
+.Services .services_container .card .blur::before {
+  content: "";
+  position: absolute;
+  right: -400%;
+  top: 100%;
+  background: var(--main-color);
+  width: 150px;
+  height: 150px;
+  filter: blur(100px);
+  border-radius: 50%;
+  transition: 0.5s;
 }
 .Services .services_container .card {
   width: 300px;
@@ -26,6 +72,14 @@
 }
 .Services .services_container .card:hover i {
   transform: scale(1.1);
+}
+.Services .services_container .card:hover.card .blur {
+  width: 125px;
+  filter: blur(1030px);
+  height: 125px;
+}
+.Services .services_container .card:hover.card .blur {
+  filter: blur(30px);
 }
 .Services .services_container .card i {
   transition: var(--main-transition);
