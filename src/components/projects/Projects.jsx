@@ -16,11 +16,7 @@ export default function Projects() {
   let [mainData, setMainData] = useState(maindata);
   return (
     <section id="Portfolio" className={`${styles.portfolio}`}>
-      <div
-        className={`${styles.blur} blur wow fadeInLeft`}
-        data-wow-duration=".4s"
-        data-wow-delay="0.5s"
-      ></div>
+  
 
       <div className={`container ${styles.projects_container}`}>
         <div className={`${styles.buttons}`}>
